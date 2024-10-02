@@ -4,9 +4,11 @@ export default function Home() {
   return (
     <main className="flex items-center h-full justify-center">
       <Image
-        width={256}
-        height={500}
-        alt="PT. The Adaire Solutions Logo"
+        priority
+        width="0"
+        height="0"
+        className="adairesolutions-logo"
+        alt="The Adaire Solutions Logo"
         src="/images/adairesolutions-logo.webp"
       />
     </main>

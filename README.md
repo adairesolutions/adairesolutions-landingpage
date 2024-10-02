@@ -1,4 +1,1 @@
-# The Adaire Solutions - Landing Page
-
-## Contributors
-• Team
+# The Adaire Solutions

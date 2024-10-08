@@ -1,5 +1,10 @@
-@media (max-width: 768px) {
+@media (max-width: 640px) {
+  .burgeonadaire-logo {
+    width: 32px !important;
+  }
+
   .adairesolutions-logo {
-    width: 192px !important;
+    width: 160px !important;
+    height: auto;
   }
 }

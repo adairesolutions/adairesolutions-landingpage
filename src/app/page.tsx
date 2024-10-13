@@ -19,9 +19,9 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row justify-between">
                 <span className="text-white text-2xl font-normal antialiased text-center sm:text-left">The Adaire <span className="font-semibold">Solutions</span></span>
                 <div className="flex pt-3 sm:pt-0 justify-center sm:justify-end">
-                  <a href="https://adairesolutions.com/portfolio" className="text-gray-500 hover:text-white transition-colors font-medium antialiased self-center mx-3">Portfolio</a>
-                  <a href="https://adairesolutions.com/about" className="text-gray-500 hover:text-white transition-colors font-medium antialiased self-center mx-3">About</a>
-                  <a href="https://adairesolutions.com/contact" className="text-gray-500 hover:text-white transition-colors font-medium antialiased self-center mx-3">Contact</a>
+                  <a href="/portfolio" className="text-gray-500 hover:text-white transition-colors font-medium antialiased self-center mx-3">Portfolio</a>
+                  <a href="/about" className="text-gray-500 hover:text-white transition-colors font-medium antialiased self-center mx-3">About</a>
+                  <a href="/contact" className="text-gray-500 hover:text-white transition-colors font-medium antialiased self-center mx-3">Contact</a>
                 </div>
               </div>
             </div>

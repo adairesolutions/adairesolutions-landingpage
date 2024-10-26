@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import '../services/firebase';
 import { Red_Hat_Text } from "next/font/google";
 import "./globals.css";
 import "./responsives.css";
+import Script from 'next/script';
 
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
@@ -38,6 +38,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
+      <Script id="gtg-script1" async src="https://www.googletagmanager.com/gtag/js?id=G-WVVRFRWWCY"></Script>
+      <Script id="gtg-script2">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-WVVRFRWWCY');
+        `}
+      </Script>
     </html>
   );
 }

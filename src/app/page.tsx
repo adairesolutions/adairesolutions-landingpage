@@ -9,6 +9,14 @@ import {
   faInstagram,
 } from '@fortawesome/free-brands-svg-icons'
 
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Website',
+  'name': 'The Adaire Solutions',
+  'alternateName': 'A Burgeon Adaire Company',
+  'url': 'https://adairesolutions.com'
+}
+
 export default function Home() {
   return (
     <Fragment>
@@ -85,6 +93,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
     </Fragment>
   );
 }

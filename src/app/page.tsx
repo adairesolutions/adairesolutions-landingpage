@@ -11,7 +11,7 @@ import {
 
 const jsonLd = {
   '@context': 'https://schema.org',
-  '@type': 'Website',
+  '@type': 'WebSite',
   'name': 'The Adaire Solutions',
   'alternateName': 'A Burgeon Adaire Company',
   'url': 'https://adairesolutions.com'

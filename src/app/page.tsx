@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Fragment } from "react";
+import Head from "next/head";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -20,6 +21,10 @@ const jsonLd = {
 export default function Home() {
   return (
     <Fragment>
+      <Head>
+        <meta name="robots" content="index, follow" />
+        <meta name="googlebot" content="follow" />
+      </Head>
       <div className="adairesolutions-whole-container container mx-auto">
         <div className="adairesolutions-content grow">
           <div className="flex flex-col h-full">

@@ -24,6 +24,11 @@ export default function Home() {
       <Head>
         <meta name="robots" content="index, follow" />
         <meta name="googlebot" content="follow" />
+        <link
+          rel="canonical"
+          href="https://adairesolutions.com"
+          key="canonical"
+        />
       </Head>
       <div className="adairesolutions-whole-container container mx-auto">
         <div className="adairesolutions-content grow">

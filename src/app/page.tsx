@@ -14,7 +14,7 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   'name': 'The Adaire Solutions',
-  'alternateName': 'A Burgeon Adaire Company',
+  'alternateName': 'TAS',
   'url': 'https://adairesolutions.com'
 }
 
@@ -35,7 +35,7 @@ export default function Home() {
           <div className="flex flex-col h-full">
             <div className="adairesolutions-navbar pt-12 pb-6 sm:pb-12 px-6">
               <div className="flex flex-col sm:flex-row justify-between">
-                <span className="text-white text-2xl font-normal antialiased text-center sm:text-left">The Adaire <span className="font-semibold">Solutions</span></span>
+                <span className="text-white text-2xl font-normal antialiased text-center sm:text-left"><span className="font-semibold">The Adaire</span> Solutions</span>
                 <div className="flex pt-3 sm:pt-0 justify-center sm:justify-end">
                   <a href="/portfolio" className="text-gray-500 hover:text-white transition-colors font-medium antialiased self-center mx-3">Portfolio</a>
                   <a href="/about" className="text-gray-500 hover:text-white transition-colors font-medium antialiased self-center mx-3">About</a>
@@ -44,7 +44,7 @@ export default function Home() {
               </div>
             </div>
             <div className="p-6">
-              <h1 className="text-white text-xl sm:text-3xl antialiased text-center sm:text-left font-medium">Elevate your business with The Adaire Solutions, offering cloud-based services that drive innovation and streamline your day-to-day operations.</h1>
+              <h1 className="text-white text-xl sm:text-3xl antialiased text-center sm:text-left font-light">Elevate your business with <span className="font-semibold">The Adaire Solutions</span>, offering cloud-based services that drive innovation and streamline your day-to-day operations.</h1>
             </div>
             <div className="grow flex justify-center items-center py-6 sm:py-0">
               <Image

@@ -84,7 +84,7 @@ export default function Home() {
                   Cookie Policy
                 </a>
               </div>
-              <p className="text-white antialiased py-3 text-center sm:text-end">© 2024 <span className="font-medium">PT. Burgeon Adaire International</span>. All rights reserved</p>
+              <p className="text-white antialiased py-3 text-center sm:text-end">© 2025 <span className="font-medium">PT. Burgeon Adaire International</span>. All rights reserved</p>
               <div className="flex flex-row justify-center sm:justify-end py-3 sm:py-0">
                 <a href="https://github.com/adairesolutions" target="_blank" rel="noopener" className="text-gray-500 hover:text-white transition-colors">
                   <FontAwesomeIcon icon={faGithub} className="fa-fw px-2" size="xl" />

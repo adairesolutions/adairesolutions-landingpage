@@ -1,3 +1,4 @@
+@import "tailwindcss";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,7 +10,8 @@ html {
 
 body {
   height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1)), url('https://images.burgeonadaire.com/adairesolutions/adairesolutions-bg.webp');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1)),
+    url("https://images.burgeonadaire.com/adairesolutions/adairesolutions-bg.webp");
   background-size: cover;
   background-position: center;
 }
@@ -30,7 +32,7 @@ body {
   width: 64px !important;
   height: auto !important;
   opacity: 50%;
-  transition: opacity .15s;
+  transition: opacity 0.15s;
 }
 
 .burgeonadaire-logo:hover {

@@ -38,3 +38,8 @@ body {
 .burgeonadaire-logo:hover {
   opacity: 100%;
 }
+
+.gtm-hidden {
+  display: none;
+  visibility: hidden;
+}

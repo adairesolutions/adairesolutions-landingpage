@@ -48,19 +48,37 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-PKWVHW9B"
+            height="0"
+            width="0"
+            className="gtm-hidden"
+          ></iframe>
+        </noscript>
+      </body>
       <Script
-        id="gtg-script1"
+        id="gtg-script-1"
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-WVVRFRWWCY"
       ></Script>
-      <Script id="gtg-script2">
+      <Script id="gtg-script-1-detail">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-
           gtag('config', 'G-WVVRFRWWCY');
+        `}
+      </Script>
+      <Script id="gtm-script-1-detail">
+        {`
+          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-PKWVHW9B');
         `}
       </Script>
       <Script
